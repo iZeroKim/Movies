@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/actionMovies">
+
+    <fragment
+        android:id="@+id/actionMovies"
+        android:name="com.example.movies.ui.ActionMovies"
+        android:label="Action movies"
+        tools:layout="@layout/fragment_action_movies" />
+    <fragment
+        android:id="@+id/adventureMovies"
+        android:name="com.example.movies.ui.AdventureMovies"
+        android:label="Adventure movies"
+        tools:layout="@layout/fragment_adventure_movies" />
+    <fragment
+        android:id="@+id/dramaMovies"
+        android:name="com.example.movies.ui.DramaMovies"
+        android:label="Drama movies"
+        tools:layout="@layout/fragment_drama_movies" />
+    <fragment
+        android:id="@+id/epicMovies"
+        android:name="com.example.movies.ui.EpicMovies"
+        android:label="Epic movies"
+        tools:layout="@layout/fragment_epic_movies" />
+</navigation>

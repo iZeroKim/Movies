@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Action Movies"
+        android:id="@+id/actionMovies" />
+    <item android:title="Adventure Movies"
+        android:id="@+id/adventureMovies" />
+    <item android:title="Epic Movies"
+        android:id="@+id/epicMovies" />
+    <item android:title="Drama Movies"
+        android:id="@+id/dramaMovies" />
+</menu>
